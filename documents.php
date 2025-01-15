@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documents</title>
-    <link rel="stylesheet" href="../portfolio/CSS/document.css" type="text/css">
+    <link rel="stylesheet" href="../PORTOFOLIO--Prof-Skills/CSS/document.css" type="text/css">
 </head>
 <body>
  <header>
@@ -19,14 +19,18 @@
     <label for="document">Choose a document:</label>
     <select name="file" id="document" required>
         <option value="" disabled selected>-- Select a document --</option>
-        <option value="../portfolio/DOCUMENTS/Agenda-Atelier 21.11.2024.pdf">Agenda</option>
-        <option value="../portofolio/DOCUMENTS/Evaluation forms Merged.pdf">Evaluation Form</option>
-        <option value="../portfolio/DOCUMENTS/feedback forms period2-merged.pdf">Feedback Period-2</option>
-        <option value="../portfolio/DOCUMENTS/feedback Period1_merged.pdf">Feedback Period-1</option>
-        <option value="../portfolio/DOCUMENTS/Minutes of Meeting.pdf">Minutes of Meeting</option>
-        <option value="../portfolio/DOCUMENTS/Project plan.pdf">Project Plan</option>
-        <option value="../portfolio/DOCUMENTS/Project presentation.pdf">Project presentation P1</option>
-        <option value="../portfolio/DOCUMENTS/semi-structured-interview-IT1G.pdf">Semi structured Interview</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Agenda-Atelier 21.11.2024.pdf">Agenda</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Evaluation forms Merged.pdf">Evaluation Form</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/feedback forms period2-merged.pdf">Feedback Period-2</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/feedback Period1_merged.pdf">Feedback Period-1</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Minutes of Meeting.pdf">Minutes of Meeting</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Project plan.pdf">Project Plan</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Project presentation.pdf">Project presentation P1</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/semi-structured-interview-IT1G.pdf">Semi structured Interview</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/Reflection Report.pdf">Reflection Report</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/.pdf">Digital Presentation</option>
+        <option value="../PORTOFOLIO--Prof-Skills/DOCUMENTS/.pdf">Edumundo</option>
+
     </select>
     <button type="submit">View Document</button>
 </form>
@@ -34,7 +38,7 @@
 <div id="pdf-container">
     <?php
    
-    $directory = '../portfolio/DOCUMENTS';
+    $directory = '../PORTOFOLIO--Prof-Skills/DOCUMENTS';
  
    
     if (isset($_GET['file'])) {

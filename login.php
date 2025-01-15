@@ -23,14 +23,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log In</title>
-    <link rel="stylesheet" href="../portfolio/CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="../PORTOFOLIO--Prof-Skills/CSS/style.css" type="text/css">
 </head>
 <body>
     <header>
         <div class="left">2024-2025 PORTOFOLIO</div>
         <div class="right">
-            <a class="active" href="../portfolio/index.html">Home</a>
-            <a href="../portfolio/login.php">Log In</a>
+            <a class="active" href="../PORTOFOLIO--Prof-Skills/index.html">Home</a>
+            <a href="../PORTOFOLIO--Prof-Skills/login.php">Log In</a>
         </div>
     </header>
     <main>
